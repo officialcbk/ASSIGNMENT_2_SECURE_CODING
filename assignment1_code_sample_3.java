@@ -68,6 +68,7 @@ public class VulnerableApp {
         String userInput = getUserInput();
         String data = getData();
         saveToDb(data);
+        
         sendEmail("admin@example.com", "User Input", userInput);
     }
 }
